@@ -11,3 +11,7 @@ REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat run scripts/deploy.js
 ```
+
+1. Deposit collateral 👍
+2. Borrow cryptocurrency
+3. Repay Cryptocurrency
