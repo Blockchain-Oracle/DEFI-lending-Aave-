@@ -1,0 +1,12 @@
+# yaml-language-server: $schema=https://teire.vercel.app/schema.json
+# Teire configuration. Every key is optional; these are the defaults.
+# Reference: https://teire.vercel.app/docs/config
+upgrades:
+  majors: true          # open upgrade PRs across major versions
+  plainBumps: true      # open verified upgrades with no code change (last in the queue)
+  cooldownDays: 7       # wait this long after a release before proposing it
+schedule: daily         # daily and on pushes that change dependencies or code; weekly, push (pushes only) or off
+pullRequests:
+  limit: 5              # open Teire PRs at most
+  perHour: 2            # new Teire PRs per hour at most
+dashboardIssue: true
